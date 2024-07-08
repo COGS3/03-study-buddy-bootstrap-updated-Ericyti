@@ -1,2 +1,44 @@
 
 /* COGS3 studyBuddy specific styles go here. */
+#title {
+    background-color: #8fdbf2;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+    padding: 10px 10px;
+}
+
+.nav-link {
+    font-family:Georgia, serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.download-button {
+    margin: 2% 2% 2% 2%;
+}
+
+.navbar-brand {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.title-image {
+    width: 70%;
+    max-width: 100%;
+    margin: auto;
+    transform: rotate(10deg);
+}
