@@ -40,5 +40,52 @@ h1 {
     width: 70%;
     max-width: 100%;
     margin: auto;
-    transform: rotate(10deg);
+    transform: rotate(5deg);
+}
+
+#features {
+    padding: 35px;
+    text-align: center;
+    background-color: beige;
+}
+
+#features .col-lg-4 {
+    padding: 5%; 
+}
+
+#features h3 {
+    font-family: Georgia, serif;
+    font-weight: bold; 
+}
+
+#features p {
+    font-family: Georgia, serif;
+    color: darkgreen;
+}
+
+.heart-icon {
+    margin-bottom: .5rem;
+    size: 25px;
+}
+
+.target-icon {
+    margin-bottom: .5rem;
+    size: 25px;
+}
+
+.check-icon {
+    margin-bottom: .5rem;
+    size: 25px;
+}
+
+.heart-icon:hover {
+    color: red;
+}
+
+.target-icon:hover {
+    color: lightgreen;
+}
+
+.check-icon:hover {
+    color: darkgreen;
 }
