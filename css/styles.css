@@ -18,6 +18,7 @@
     max-width: 400px;
     margin: auto;
     transform: rotate(5deg);
+    z-index: -1;
 }
 
 h1 {
@@ -50,12 +51,15 @@ h1 {
     font-weight: bold;
     font-size: 3rem;
     line-height: 1.5;
+    text-align: center;
 }
 
 #features {
     padding: 35px;
     text-align: center;
     background-color: beige;
+    position: relative;
+    z-index: 5;
 }
 
 #features .col-lg-4 {
@@ -124,4 +128,27 @@ h1 {
 .press-logo {
     width: 25%;
     margin: 40px;
+}
+
+#pricing {
+    padding: 100px;
+    background-color: beige;
+    text-align: center;
+}
+
+.pricing-title {
+    font-family: Georgia, serif;
+    font-weight: bold; 
+    text-align: center;
+}
+
+.card-link {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card {
+    background-color: #D6B588;
+    text-align: center;
 }

@@ -15,25 +15,27 @@
     <section id="title">
       <!-- Nav Bar -->
       <!-- Taken from https://getbootstrap.com/docs/5.3/components/navbar/ -->
-       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">studyBuddy</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ml-auto">
-            <li class="navbar-item">
-              <a href="#" class="nav-link">Content</a>
-            </li>
-            <li class="navbar-item">
-              <a href="#" class="nav-link">Pricing </a>
-            </li>
-            <li class="navbar-item">
-              <a href="#" class="nav-link">Download</a>
-            </li>
-          </ul>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand mx-auto" href="#">studyBuddy</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Content</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Download</a>
+              </li>
+            </ul>
+          </div>
         </div>
-       </nav>
+      </nav>
 
       <!-- Title -->
       <!-- Taken from https://getbootstrap.com/docs/5.3/layout/grid/ -->
@@ -73,9 +75,25 @@
     <!-- Testimonials -->
 
     <section id="testimonials">
-      <h2>I no longer have to study alone. No more cramming. Lower stress!</h2>
-      <img src="images/study-img-300.jpg" alt="study image with buddy by eliott-reyna-Unsplashed.com" class="testimonials-image">
-      <em>Cindy, UCSD</em>
+      <div id="testimonal-carousel" class="carousel slide" data-interval="2000" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>I no longer have to study alone. No more cramming. Lower stress!</h2>
+            <img src="images/study-img-300.jpg" alt="study image with buddy by eliott-reyna-Unsplashed.com" class="testimonials-image">
+            <em>Cindy, UCSD</em>
+          </div>
+          <div class="carousel-item">
+            <h2>I have been able to improve my grades in just one semester of using the app!</h2>
+            <img src="images/tamarcus-brown-unsplash.jpg" alt="study image with buddy by eliott-reyna-Unsplashed.com" class="testimonials-image">
+            <em>Tamarcus, UCLA</em>
+          </div>
+          <div class="carousel-item">
+            <h2>I can study whenever I want! This fits my studying style!</h2>
+            <img src="images/annie-spratt-unsplash.jpg" alt="study image with buddy by eliott-reyna-Unsplashed.com" class="testimonials-image">
+            <em>Annie, UCB</em>
+          </div>
+        </div>
+      </div>
 
     </section>
 
@@ -97,35 +115,47 @@
     </section>
 
     <!-- Pricing -->
-<section id="pricing">
-
-    <h2>A Plan for Every Student's Budget</h2>
-    <p>Simple and affordable price plans for your learning aspirations.</p>
-
-    <h3>Honors</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Dean's List</h3>
-    <h2>29.99</h2>
-    <p>Unlimited Matches Per Day</p>
-    <p>Unlimited Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-    <h3>Magna Cum Laude Honors</h3>
-    <h2>59.99</h2>
-    <p>Priority Listing</p>
-    <p>Unlimited Matches Per Day</p>
-    <p>Unlimited Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-</section>
+    <section id="pricing">
+      <div class="pricing-title">
+        <h2>A Plan for Every Student's Budget</h2>
+        <p>Simple and affordable price plans for your learning aspirations.</p>
+      </div>
+      <div class="card-deck">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Honors</h5>
+            <h6 class="card-subtitle mb-2">Free</h6>
+            <p class="card-text">5 Matches per Day</p>
+            <p class="card-text">10 Messages Per Day</p>
+            <p class="card-text">Unlimited App Usage</p>
+            <a href="#" class="card-link">Sign Up</a>
+          </div>
+        </div>
+    
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Dean's List</h5>
+            <h6 class="card-subtitle mb-2">29.99</h6>
+            <p class="card-text">Unlimited Matches per Day</p>
+            <p class="card-text">Unlimited Messages Per Day</p>
+            <p class="card-text">Unlimited App Usage</p>
+            <a href="#" class="card-link">Sign Up</a>
+          </div>
+        </div>
+    
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Magna Cum Laude Honors</h5>
+            <h6 class="card-subtitle mb-2">59.99</h6>
+            <p class="card-text">Priority Listing</p>
+            <p class="card-text">Unlimited Matches per Day</p>
+            <p class="card-text">Unlimited Messages Per Day</p>
+            <p class="card-text">Unlimited App Usage</p>
+            <a href="#" class="card-link">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
 <!-- Call To Action -->
 <section id="cta">
