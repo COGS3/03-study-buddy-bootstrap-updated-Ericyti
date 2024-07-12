@@ -77,37 +77,37 @@ h1 {
     color: darkgreen;
 }
 
-.heart-icon {
+.thumbs-icon {
     margin-bottom: .5rem;
     size: 25px;
 }
 
-.target-icon {
+.books-icon {
     margin-bottom: .5rem;
     size: 25px;
 }
 
-.check-icon {
+.percent-icon {
     margin-bottom: .5rem;
     size: 25px;
 }
 
-.heart-icon:hover {
+.thumbs-icon:hover {
     color: red;
 }
 
-.target-icon:hover {
+.books-icon:hover {
     color: lightgreen;
 }
 
-.check-icon:hover {
+.percent-icon:hover {
     color: darkgreen;
 }
 
 #testimonials {
     padding: 7% 15%;
     text-align: center;
-    background-color: beige;
+    background-color: #D6B588;
 }
 
 #testimonials h2 {
@@ -124,11 +124,28 @@ h1 {
 #press {
     background-color: beige;
     text-align: center;
+    padding: 50px 0;
 }
 
 .press-logo {
-    width: 20%;
-    margin: 30px;
+    width: 100%;
+    max-width: 150px;
+    margin: 20px auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+@media (max-width: 768px) {
+    .press-logo {
+        max-width: 120px;
+    }
+}
+
+@media (max-width: 576px) {
+    .press-logo {
+        max-width: 100px;
+    }
 }
 
 #pricing {
@@ -137,10 +154,14 @@ h1 {
     text-align: center;
 }
 
-.pricing-title {
+.pricing-title h2{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold; 
     text-align: center;
+}
+
+.pricing-title {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .card-link {
@@ -189,7 +210,7 @@ h1 {
   }
 
   #cta {
-    background-color: beige;
+    background-color: #D6B588;
     color: black;
     padding: 7% 15%;
     text-align: center;
