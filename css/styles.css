@@ -17,19 +17,19 @@
     width: 100%;
     max-width: 400px;
     margin: auto;
-    transform: rotate(5deg);
-    z-index: -1;
+    transform: rotate(20deg);
 }
 
 h1 {
-  font-family: Georgia, serif;
+  font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 4rem;
   line-height: 1.5;
 }
 
 .navbar {
     padding: 0 0 4.5rem 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .nav-item {
@@ -37,7 +37,7 @@ h1 {
 }
 
 .nav-link {
-    font-family:Georgia, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
     font-weight: bold;
 }
@@ -47,7 +47,7 @@ h1 {
 }
 
 .navbar-brand {
-    font-family: Georgia, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 3rem;
     line-height: 1.5;
@@ -55,11 +55,12 @@ h1 {
 }
 
 #features {
-    padding: 35px;
+    padding: 0;
+    margin-top: -150px;
     text-align: center;
     background-color: beige;
     position: relative;
-    z-index: 5;
+    z-index: 1;
 }
 
 #features .col-lg-4 {
@@ -126,8 +127,8 @@ h1 {
 }
 
 .press-logo {
-    width: 25%;
-    margin: 40px;
+    width: 20%;
+    margin: 30px;
 }
 
 #pricing {
@@ -137,7 +138,7 @@ h1 {
 }
 
 .pricing-title {
-    font-family: Georgia, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold; 
     text-align: center;
 }
@@ -146,9 +147,57 @@ h1 {
     font-family: Georgia, serif;
     font-weight: bold;
     text-align: center;
+    color: black;
 }
 
 .card {
     background-color: #D6B588;
     text-align: center;
 }
+
+.btn-custom {
+    background-color: beige;
+    color: black;
+    border: none;
+    text-decoration: none;
+  }
+
+  @media (max-width: 900px) {
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5rem;
+    }
+  }
+
+
+  @media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+  }
+
+  #footer {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    background-color: beige;
+    text-align: center;
+  }
+
+  #cta {
+    background-color: beige;
+    color: black;
+    padding: 7% 15%;
+    text-align: center;
+  }
+  
+  .cta-heading {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
